@@ -181,7 +181,9 @@ nav ul li a:hover {
 .content table {
   text-align: center;
   border: solid;
+  border-radius: 5px;
   margin: auto;
+  padding-bottom: 5px;
 }
 
 .content table th {
