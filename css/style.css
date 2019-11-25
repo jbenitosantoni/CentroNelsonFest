@@ -233,3 +233,12 @@ nav ul li a:hover {
   float: left;
   margin-left: 13%;
 }
+
+#cartel {
+  align: center;
+}
+
+#cartel img {
+  display: block;
+  margin: 0 auto;
+}
