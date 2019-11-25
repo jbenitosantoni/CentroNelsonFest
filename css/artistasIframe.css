@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'vampireItalic';
+  src: url('../fonts/VampireWarsItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'vampire';
+  src: url('../fonts/VampireWars.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'vampire';
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}

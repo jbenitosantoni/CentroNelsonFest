@@ -124,6 +124,7 @@ nav ul {
   padding: 0;
   list-style: none;
   padding-left: 40px;
+  table-layout: fixed;
 }
 
 nav ul li {
@@ -178,7 +179,9 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.content table {
+#tablaindex {
+  width: 70%;
+  table-layout: fixed;
   text-align: center;
   border: solid;
   border-radius: 5px;
@@ -186,12 +189,12 @@ nav ul li a:hover {
   padding-bottom: 5px;
 }
 
-.content table th {
+#tablaindex th {
   padding: 15px;
   font-size: 1.8em;
 }
 
-.content table td {
+#tablaindex td {
   font-size: 1.2em;
 }
 
@@ -241,4 +244,62 @@ nav ul li a:hover {
 #cartel img {
   display: block;
   margin: 0 auto;
+}
+
+#noticias span {
+  color: #8fc8cf;
+}
+
+#noticias h3 {
+  color: #06b3c9;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+#tablaArtistas {
+  margin: 0 auto;
+}
+
+#tablaArtistas img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.contenedor h4 {
+  position: absolute;
+  bottom: -15px;
+  font-family: 'vampire';
+  left: 10px;
+  background: #9c0505;
+  padding: 3px 5px;
+  line-height: 1.7;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+iframe {
+  framebo
 }
