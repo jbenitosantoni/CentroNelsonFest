@@ -48,6 +48,7 @@ img {
   left: 0;
   top: 0;
   position: fixed;
+  z-index: 10;
 }
 
 #main-header a {
@@ -295,8 +296,4 @@ nav ul li a:hover {
   line-height: 1.7;
   border-radius: 3px;
   display: inline-block;
-}
-
-iframe {
-  framebo
 }
