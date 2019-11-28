@@ -161,11 +161,9 @@ nav ul li a:hover {
 }
 
 .subrayadogrande {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: 'vampire';
   color: black;
-  text-decoration: none;
-  text-decoration: 4px underline;
   text-align: center;
 }
 
@@ -358,10 +356,39 @@ nav ul li a:hover {
   padding: 20px;
 }
 
+#bloque {
+  display: block;
+  overflow: auto;
+}
+
 #mapa {
-  margin-left: 25%;
+  width: 90%;
+  height: 430px;
+}
+
+#columnaizquierda {
+  float: left;
   width: 50%;
-  height: 450px;
+}
+
+#columnaderecha {
+  width: 50%;
+  float: right;
+}
+
+#bloqueMain {
+  display: block;
+  overflow: auto;
+}
+
+#columnaMain {
+  float: left;
+  width: 70%;
+}
+
+#noticias {
+  width: 30%;
+  float: right;
 }
 
 #pEstrategico {
