@@ -23,14 +23,6 @@ body {
   padding-top: 80px;
 }
 
-h1 {
-  font-size: 2.3em;
-  line-height: 1.3em;
-  margin: 15px 0;
-  text-align: center;
-  font-weight: 300;
-}
-
 p {
   margin: 0 0 1.5em 0;
 }
@@ -163,13 +155,13 @@ nav ul li a:hover {
 }
 
 .content h1 {
-  font-size: 4em;
+  font-size: 2.4em;
   font-family: 'vampire';
   text-align: center;
 }
 
 .subrayadogrande {
-  font-size: 2em;
+  font-size: 1.2em;
   font-family: 'vampire';
   color: black;
   text-decoration: none;
@@ -189,11 +181,11 @@ nav ul li a:hover {
 
 #tablaindex th {
   padding: 15px;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 #tablaindex td {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #main-footer {
@@ -370,4 +362,17 @@ nav ul li a:hover {
   margin-left: 25%;
   width: 50%;
   height: 450px;
+}
+
+#pEstrategico {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#pApoyo {
+  text-align: center;
+}
+
+#pDifusion {
+  text-align: center;
 }
