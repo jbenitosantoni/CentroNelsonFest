@@ -225,6 +225,36 @@ nav ul li a:hover {
   margin-left: 13%;
 }
 
+#pDifusion table {
+  margin: 0 auto;
+  border-spacing: 30px;
+}
+
+#pDifusion td {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+#pDifusion img {
+  max-width: 400px;
+  max-height: 200px;
+}
+
+#pApoyo table {
+  margin: 0 auto;
+  border-spacing: 30px;
+}
+
+#pApoyo td {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+#pApoyo img {
+  max-width: 400px;
+  max-height: 200px;
+}
+
 #cartel {
   align: center;
 }
@@ -391,15 +421,12 @@ nav ul li a:hover {
   float: right;
 }
 
-#pEstrategico {
+#pDifusion {
   text-align: center;
   text-decoration: underline;
 }
 
 #pApoyo {
   text-align: center;
-}
-
-#pDifusion {
-  text-align: center;
+  text-decoration: underline;
 }
