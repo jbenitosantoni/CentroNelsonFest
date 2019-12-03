@@ -430,3 +430,8 @@ nav ul li a:hover {
   text-align: center;
   text-decoration: underline;
 }
+
+.anoestilo {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/js.js"></script>
+  <link rel="stylesheet" href="./css/contacto.css">
   <title>Festi</title>
 </head>
 
@@ -34,50 +35,29 @@
       </ul>
     </div>
   </header>
-
-
   <section id="main-content">
-
     <div class="content">
-      <div id="modal">
-        <div class="modalconent">
-          <h1>Aprovecha Nuestras Ofertas</h1>
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname"><i class="fa fa-user"></i> Nombre</label>
+          <input type="text" id="fname" name="firstname" placeholder="Javier" required>
 
-          <p>Compra el bono completo y obten camping durante todo el festival por tan solo 50€</p>
-          <button id="cerrar" class="buttonblue">Cerrar</button>
-        </div>
+          <label for="lname"><i class="fa fa-user"></i> Apellidos</label>
+          <input type="text" id="lname" name="lastname" placeholder="Benito">
+
+          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+          <input type="text" id="email" name="email" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" placeholder="javier@gmail.com" required>
+
+          <label for="subject"><i class="fas fa-comment-alt"></i> Mensaje</label>
+          <textarea id="subject" name="subject" placeholder="Escribe tu mensaje..." style="height:200px" required></textarea>
+          <label>
+            <input type="checkbox" name="terminos" required> Acepto Terminos, Condiciones y Política de Privacidad
+          </label><br>
+          <input type="submit" value="Enviar" class="btn">
+        </form>
       </div>
-      <h1>Entradas</h1>
-      <table id="paginaentradas">
-        <tr>
-          <th>Abono 1 Dia</th>
-          <th>Abono Completo</th>
-          <th>Abono 2 Dias</th>
-        </tr>
-        <tr>
-          <td>Camping no permitido en este abono</td>
-          <td>Camping durante todo el festival 50€</td>
-          <td>Camping durante todo los dos días 20€</td>
-        </tr>
-        <tr>
-          <td>20€</td>
-          <td>150€</td>
-          <td>30€</td>
-        </tr>
-        <tr>
-          <td><a href="compra.html" class="anoestilo"><button class="buttonblue">Comprar</a></td>
-          <td><a href="compra.html" class="anoestilo"><button class="buttonred">
-                Comprar</a></td>
-          <td><a href="compra.html" class="anoestilo"><button class="buttonblue">
-                Comprar</a></td>
-        </tr>
-
-      </table>
     </div>
   </section>
-
-
-
   <footer id="main-footer">
     <div id="patrocinadores">
       <h2>Patrocinadores</h2>
