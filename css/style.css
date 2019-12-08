@@ -272,6 +272,14 @@ nav ul li a:hover {
   color: #06b3c9;
 }
 
+#paginanoticias h3 {
+  color: #06b3c9;
+}
+
+#paginanoticias span {
+  color: #8fc8cf;
+}
+
 .button {
   background-color: white;
   color: black;
